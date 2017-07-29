@@ -1,0 +1,4 @@
+*.log
+*.swp
+.my-gists-config.json
+node_modules

@@ -1,0 +1,32 @@
+{
+  "name": "my-gists",
+  "version": "1.0.0",
+  "description": "Client for Gists supporting REST API V3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "my-gists": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoshiiinuma/my-gists.git"
+  },
+  "keywords": [
+    "gist",
+    "gists",
+    "github",
+    "nord",
+    "command-line"
+  ],
+  "author": "Yoshiaki Iinuma",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/yoshiiinuma/my-gists/issues"
+  },
+  "homepage": "https://github.com/yoshiiinuma/my-gists#readme",
+  "dependencies": {
+    "superagent": "^3.5.2"
+  }
+}
