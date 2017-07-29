@@ -2,6 +2,12 @@
 
 Yet another Gist client
 
+## Installation
+
+```
+> npm install my-gists
+```
+
 ## Usage
 
 ```
