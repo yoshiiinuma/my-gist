@@ -59,7 +59,8 @@ while (args.length > 0) {
 }
 
 if (!command) {
-  app.addErrors('ERROR: No Command Specified');
+  usage();
+  process.exit(0);
 }
 
 switch(command) {
